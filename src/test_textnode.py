@@ -3,7 +3,7 @@ import unittest
 from textnode import TextNode, TextType
 
 
-class TestTextNode_eq(unittest.TestCase):
+class TestTextNode(unittest.TestCase):
     def test_eq(self):
 #        print("test_eq")
         node = TextNode("This is a text node", TextType.BOLD)
